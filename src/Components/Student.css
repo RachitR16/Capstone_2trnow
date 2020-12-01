@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    font-family: 'Titillium Web';
+}
+
+.left_sec{
+    background-color: rgb(0, 0, 0);
+    background: url('./images/Background1.png') no-repeat;
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+.intro{
+    font-weight: 100;
+    font-size: 42px;
+    margin: 10% 28% 0%;
+    text-align: left;
+}
+
+.right_sec{
+    background-color: rgb(41, 41, 41);
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+
+.logo{
+    margin: 0px;
+    width: 100px;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+.title h1{
+    color:  rgb(158, 188, 159);
+    font-weight: 100;
+    margin-top: 10%;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.student_buttons{
+    text-align: center;
+    margin-top: 23%;
+    font-size: 23px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login{
+    border: 1px solid rgb(228, 158, 159);
+    border-radius: 25px;
+}
+
+.register{
+    border: 1px solid rgb(158, 188, 159);
+    border-radius: 25px;
+}
+
+.instructions{
+    color: rgb(255, 213, 139);
+    text-align: center;
+    margin-top: 30%;
+}
+
+.form{
+    margin-top: 14%;
+    align-items: center;
+    text-align: center;
+}
+.r_form{
+    margin-top: 4%;
+    align-items: center;
+    text-align: center;
+}
+
+.form h1{
+    font-weight: 100;
+    color: rgb(117, 139, 118);
+}
+.r_form h1{
+    font-weight: 100;
+    color: rgb(117, 139, 118);
+}
+
+.userInfo{
+    margin-top: 4.5%;
+    width: 50%;
+    height: 100%;
+    color: rgb(255, 213, 139);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 100;
+    border-bottom: 1px solid rgb(255, 213, 139);
+    background-color:transparent;
+
+}
+
+.enter{
+    margin-top: 7%;
+    width:50%;
+    font-size: 25px;
+    font-weight: 100;
+    border: 2px solid rgb(158, 188, 159);
+    background-color: rgb(158, 188, 159);
+    border-radius: 25px;
+}
+
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+#id_input{
+    background-color:transparent;
+}
+
