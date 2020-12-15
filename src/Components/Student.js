@@ -37,11 +37,11 @@ function Student(){
                 </div>
 
                 <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} 
-                style={
-                    {
-                        overlay:{backgroundColor:'rgba(0,0,0,.7)'},
-                        content:{backgroundColor:'rgb(32, 32, 32)', opacity:'1', width:'800px', marginLeft: 'auto', marginRight:'auto'},
-                        }}>
+                    style={
+                        {
+                            overlay:{backgroundColor:'rgba(0,0,0,.7)'},
+                            content:{backgroundColor:'rgb(32, 32, 32)', opacity:'1', width:'800px', marginLeft: 'auto', marginRight:'auto'},
+                            }}>
 
                     <form className="form" method="POST">
                         <h1>Student Login</h1>
@@ -52,11 +52,11 @@ function Student(){
                 </Modal>
 
                 <Modal isOpen={modalIsOpen_r} onRequestClose={() => setModalIsOpen_r(false)}
-                style={
-                    {
-                        overlay:{backgroundColor:'rgba(0,0,0,.7)'},
-                        content:{backgroundColor:'rgb(32, 32, 32)', opacity:'1', width:'800px', marginLeft: 'auto', marginRight:'auto'},
-                        }}>
+                    style={
+                        {
+                            overlay:{backgroundColor:'rgba(0,0,0,.7)'},
+                            content:{backgroundColor:'rgb(32, 32, 32)', opacity:'1', width:'800px', marginLeft: 'auto', marginRight:'auto'},
+                            }}>
                             
                     <form className="r_form" method="POST">
                         <h1>Student Registration</h1>
