@@ -45,7 +45,7 @@ function Student(){
 
                     <form className="form" method="POST">
                         <h1>Student Login</h1>
-                        <input type="text" className="userInfo" name="username" placeholder="Enter User" required/>
+                        <input type="text" className="userInfo" name="username" placeholder="Email" required/>
                         <input type="text" className="userInfo" name="Password" placeholder="Password" required/>
                         <button className="enter">Enter</button>
                     </form>                    
