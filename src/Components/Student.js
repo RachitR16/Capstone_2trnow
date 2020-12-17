@@ -61,9 +61,9 @@ function Student(){
                     <form className="r_form" method="POST">
                         <h1>Student Registration</h1>
                         <input type="text" className="userInfo" name="fullName" placeholder="Full Name" required/>
+                        <input type="text" className="userInfo" name="email" placeholder="Email" required/>
                         <input type="text" className="userInfo" name="password" placeholder="Password" required/>
                         <input type="text" className="userInfo" name="location" placeholder="Location" required/>
-                        <input type="text" className="userInfo" name="email" placeholder="Email" required/>
                         <input type="text" className="userInfo" name="dob" placeholder="Date of Birth" required/>
                         <input type="text" className="userInfo" name="program" placeholder="School Program" required/>
                         <button className="enter">Register</button>
